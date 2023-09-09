@@ -8,6 +8,14 @@
   "author": "Matt Huggins <matt.huggins@gmail.com>",
   "license": "MIT",
   "private": false,
+  "keywords": [
+    "typescript",
+    "types",
+    "utility",
+    "util",
+    "node",
+    "nodejs"
+  ],
   "files": [
     "dist"
   ],
