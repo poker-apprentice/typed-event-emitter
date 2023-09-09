@@ -1,6 +1,6 @@
 {
   "name": "@poker-apprentice/typed-event-emitter",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Strictly typed Node.js event emitter for TypeScript",
   "main": "dist/index.js",
   "repository": "https://github.com/poker-apprentice/typed-event-emitter",
