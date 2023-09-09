@@ -15,7 +15,8 @@
     "build": "yarn build:types && yarn build:rollup",
     "build:types": "tsc -b .",
     "build:rollup": "cross-env NODE_ENV=production rollup -c",
-    "clean": "rimraf dist"
+    "clean": "rimraf dist",
+    "prepublishOnly": "yarn clean && yarn build"
   },
   "devDependencies": {
     "@babel/core": "^7.22.17",
