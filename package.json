@@ -1,0 +1,33 @@
+{
+  "name": "@poker-apprentice/typed-event-emitter",
+  "version": "0.0.0",
+  "description": "Strictly typed Node.js event emitter for TypeScript",
+  "main": "dist/index.js",
+  "repository": "https://github.com/poker-apprentice/typed-event-emitter",
+  "author": "Matt Huggins <matt.huggins@gmail.com>",
+  "license": "MIT",
+  "private": false,
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "yarn build:types && yarn build:rollup",
+    "build:types": "tsc -b .",
+    "build:rollup": "cross-env NODE_ENV=production rollup -c",
+    "clean": "rimraf dist"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.22.17",
+    "@babel/preset-env": "^7.22.15",
+    "@babel/preset-typescript": "^7.22.15",
+    "@rollup/plugin-babel": "^6.0.3",
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
+    "@rollup/plugin-terser": "^0.4.3",
+    "@types/node": "^20.6.0",
+    "cross-env": "^7.0.3",
+    "rimraf": "^5.0.1",
+    "rollup": "^3.29.0",
+    "typescript": "^5.2.2"
+  }
+}
