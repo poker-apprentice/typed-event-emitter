@@ -1,4 +1,4 @@
-# `@poker-apprentice/typed-event-emitter`
+# Typed Event Emitter
 
 Strictly typed Node.js event emitter for TypeScript.
 
